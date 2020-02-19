@@ -1,0 +1,24 @@
+header {
+  background-color: #f37520;
+}
+header,
+header > .container {
+  height: 64px;
+}
+footer {
+  background-color: rgb(69, 69, 69);
+  padding: 2rem;
+}
+section nav {
+  background-color: rgb(237, 237, 237);
+  padding: 2rem;
+}
+
+@media (min-width: 576px) {
+  section,
+  section > .row,
+  section > .row > [class^="col-"],
+  section > .row nav {
+    height: calc(100vh - 292px);
+  }
+}
